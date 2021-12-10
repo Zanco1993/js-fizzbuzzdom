@@ -4,10 +4,14 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #123e42;
+    font-family: 'PT Sans', sans-serif;
+}
+
 .container {
     margin: auto;
     width: 1200px;
-    background-color: red;
 }
 
 .container h1 {
@@ -30,5 +34,35 @@
     text-align: center;
     line-height: 150px;
     border: 1px solid black;
+    font-size: 26px;
+    transition: 0.3s;
 }
 
+.box-red {
+    background-color: red;
+}
+
+.box-green {
+    background-color: green;
+}
+
+.box-yellow {
+    background-color: yellow;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-underline {
+    text-decoration: underline;
+}
+
+.box:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em;
+    transform: translateY(-1em); 
+}
